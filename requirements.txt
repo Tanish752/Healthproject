@@ -1,11 +1,4 @@
 # Requirements for the Healthproject application
-PyPDF2
-re
-pandas
-os
-datetime
 streamlit
-io
-matplotlib.pyplot
-seaborn
-datetime
+PyPDF2==3.0.1
+rich>=10.14.0
