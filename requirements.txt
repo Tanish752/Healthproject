@@ -1,0 +1,11 @@
+import necessary libraries as given below 
+PyPDF2
+re
+pandas as pd
+os
+datetime as dt
+streamlit as st
+io
+matplotlib.pyplot as plt
+seaborn as sns
+datetime
