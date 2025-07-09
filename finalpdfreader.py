@@ -1,7 +1,7 @@
 import PyPDF2,re,pandas as pd, os, datetime as dt, streamlit as st
 def clean(val):
     return str(val).strip().replace('\n', ' ').replace('\r', '').replace('  ', ' ')
-
+ 
 def extract_proc_dx(pdf_stream):
     pdf_file = PyPDF2.PdfReader(pdf_stream)
     text = ""
