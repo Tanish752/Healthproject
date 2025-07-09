@@ -10,6 +10,7 @@
 # import seaborn as sns
 #from datetime import datetime
 
+
 def clean(val):
     return str(val).strip().replace('\n', ' ').replace('\r', '').replace('  ', ' ')
 
