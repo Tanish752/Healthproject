@@ -1,14 +1,14 @@
 # streamlit_app.py
-import PyPDF2
-import re
-import pandas as pd
-import os
-import datetime as dt
-import streamlit as st
-import io
-import matplotlib.pyplot as plt
-import seaborn as sns
-from datetime import datetime
+# import PyPDF2
+# import re
+# import pandas as pd
+# import os
+# import datetime as dt
+# import streamlit as st
+# import io
+# import matplotlib.pyplot as plt
+# import seaborn as sns
+#from datetime import datetime
 
 def clean(val):
     return str(val).strip().replace('\n', ' ').replace('\r', '').replace('  ', ' ')
