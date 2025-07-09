@@ -5,3 +5,4 @@ rich>=10.14.0
 matplotlib
 seaborn
 datetime
+xlsxwriter
