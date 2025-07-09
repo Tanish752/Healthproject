@@ -1,5 +1,13 @@
 # streamlit_app.py
-import PyPDF2,re,pandas as pd, os, datetime as dt, streamlit as st, io, matplotlib.pyplot as plt, seaborn as sns
+import PyPDF2
+import re
+import pandas as pd
+import os
+import datetime as dt
+import streamlit as st
+import io
+import matplotlib.pyplot as plt
+import seaborn as sns
 from datetime import datetime
 
 def clean(val):
