@@ -1,4 +1,4 @@
-import necessary libraries as given below 
+
 PyPDF2
 re
 pandas as pd
