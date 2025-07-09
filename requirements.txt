@@ -1,11 +1,11 @@
-
+# Requirements for the Healthproject application
 PyPDF2
 re
-pandas as pd
+pandas
 os
-datetime as dt
-streamlit as st
+datetime
+streamlit
 io
-matplotlib.pyplot as plt
-seaborn as sns
+matplotlib.pyplot
+seaborn
 datetime
